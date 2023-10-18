@@ -1,0 +1,23 @@
+{
+    "djlint.closeVoidTags": true,
+    "djlint.enableLinting": true,
+    "djlint.formatAttributeTemplateTags": true,
+    "djlint.formatCss": true,
+    "html.autoClosingTags": true,
+    "htmlhint.documentSelector": [
+
+        "html",
+        "htm"
+    ],
+    "[html][django-html][handlebars][hbs][mustache][jinja][jinja-html][nj][njk][nunjucks][twig]": {
+        "editor.defaultFormatter": "monosans.djlint"
+      },
+
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+    },
+    
+}
